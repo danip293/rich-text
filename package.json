@@ -1,0 +1,47 @@
+{
+  "name": "rich-editor-react-slate",
+  "version": "1.0.0",
+  "description": "rich text",
+  "main": "index.js",
+  "author": "daniel velazquez giron",
+  "license": "ISC",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "bootstrap": "^4.4.1",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.7.2",
+    "eslint-loader": "^3.0.2",
+    "express": "^4.17.1",
+    "immutable": "^3.8.2",
+    "is-url": "^1.2.4",
+    "path": "^0.12.7",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "reactstrap": "^8.1.1",
+    "slate": "0.45.0",
+    "slate-react": "0.20.0",
+    "style-loader": "^1.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-react": "^7.7.4",
+    "@fortawesome/fontawesome-free": "^5.12.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "open": "^7.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-middleware": "^3.7.2",
+    "webpack-dev-server": "^3.9.0",
+    "webpack-hot-middleware": "^2.25.0"
+  },
+  "scripts": {
+    "start": "node src/server",
+    "build": "webpack"
+  }
+}

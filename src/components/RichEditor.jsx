@@ -1,5 +1,5 @@
 import React from 'react';
-import { Editor } from 'slate-react';
+import { Editor } from 'druide-slate-react';
 import { Value } from 'slate';
 import { Container, Card, CardBody, Button, CardHeader } from 'reactstrap';
 
@@ -14,9 +14,11 @@ const voidValue = {
       {
         object: 'block',
         type: 'paragraph',
-        data: {},
-        nodes: [
-          { object: 'text', leaves: [{ object: 'leaf', text: '', marks: [] }] },
+        children: [
+          {
+            text: '',
+            marks: [],
+          },
         ],
       },
     ],
